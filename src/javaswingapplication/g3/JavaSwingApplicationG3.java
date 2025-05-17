@@ -4,17 +4,20 @@
  */
 package javaswingapplication.g3;
 
-/**
- *
- * @author asus
- */
-public class JavaSwingApplicationG3 {
+import javax.swing.JFrame;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class JavaSwingApplicationG3 extends JFrame { // Extend JFrame
+    public JavaSwingApplicationG3() {
+        initComponents();
     }
-    
+
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> {
+            new JavaSwingApplicationG3().setVisible(true);
+        });
+    }
+
+    private void initComponents() {
+        // GUI initialization code
+    }
 }

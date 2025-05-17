@@ -3,11 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package javaswingapplication.g3;
-
-/**
- *
- * @author asus
- */
 public class CRUD_Frame extends javax.swing.JFrame {
 
     /**
