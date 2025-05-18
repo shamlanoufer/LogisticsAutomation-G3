@@ -74,7 +74,7 @@ public class SignUp extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addGap(23, 23, 23)
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 196, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 199, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addGap(64, 64, 64))
         );

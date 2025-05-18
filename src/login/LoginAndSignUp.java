@@ -1,13 +1,12 @@
 
 package login;
 
-import login.Login;
+import javaswingapplication.g3.login.Login;
 
 public class LoginAndSignUp {
 
 
     public static void main(String[] args) {
-
         Login LoginFrame = new Login();
         LoginFrame.setVisible(true);
         LoginFrame.pack();
@@ -15,3 +14,4 @@ public class LoginAndSignUp {
     }
     
 }
+
