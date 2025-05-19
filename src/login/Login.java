@@ -49,6 +49,10 @@ public class Login extends JFrame {
         Right.setLayout(RightLayout);
         RightLayout.setHorizontalGroup(
             RightLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RightLayout.createSequentialGroup()
+                .addGap(0, 73, Short.MAX_VALUE)
+                .addComponent(jLabel7)
+                .addGap(63, 63, 63))
             .addGroup(RightLayout.createSequentialGroup()
                 .addGroup(RightLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(RightLayout.createSequentialGroup()
@@ -58,25 +62,21 @@ public class Login extends JFrame {
                         .addContainerGap()
                         .addComponent(jLabel6)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RightLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel7)
-                .addGap(63, 63, 63))
         );
         RightLayout.setVerticalGroup(
             RightLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(RightLayout.createSequentialGroup()
                 .addGap(136, 136, 136)
                 .addComponent(jLabel5)
-                .addGap(54, 54, 54)
+                .addGap(61, 61, 61)
                 .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 181, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 174, Short.MAX_VALUE)
                 .addComponent(jLabel7)
                 .addGap(78, 78, 78))
         );
 
         jPanel1.add(Right);
-        Right.setBounds(0, 0, 410, 500);
+        Right.setBounds(0, 0, 420, 500);
 
         Left.setBackground(new java.awt.Color(255, 255, 255));
         Left.setMinimumSize(new java.awt.Dimension(400, 500));
