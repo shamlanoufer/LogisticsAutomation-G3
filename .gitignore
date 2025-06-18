@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 /build/
+=======
+# Maven
+/target/
+
+# IDEs
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# OS
+.DS_Store
+Thumbs.db 
+>>>>>>> f7412b7 (Initial commit)
